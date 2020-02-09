@@ -1,4 +1,4 @@
-import  numpy as np
+import numpy as np
 from keras_preprocessing.image import load_img, img_to_array
 from tensorflow.python.keras.models import load_model
 
@@ -23,4 +23,4 @@ def predict(file):
     return respuesta
 
 
-predict('gatito.jpeg')
+#predict('gatito.jpeg')
